@@ -1,4 +1,4 @@
-const { YeetServer } = require("./web-server");
+const { YeetServer } = require("../src/yeet-server");
 const { join } = require("node:path");
 const fs = require("node:fs/promises");
 const { existsSync } = require("node:fs");

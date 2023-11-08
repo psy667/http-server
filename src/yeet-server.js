@@ -119,6 +119,8 @@ class YeetServer {
     ]
       .filter((it) => it !== null)
       .join("\r\n");
+    
+    socket.write(responseString);
 
     socket.on("error", (err) => {
       console.error("error", err);

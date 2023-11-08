@@ -6,9 +6,11 @@ This library provides an implementation of an HTTP web server. It uses Node.js n
 
 Import the YeetServer module:
 
-javascript
-const { YeetServer } = require("./YeetServer");
 
+```
+javascript
+const { YeetServer } = require("yeet-server");
+``````
 ## Usage
 
 Initially, create a new instance of the YeetServer class:
